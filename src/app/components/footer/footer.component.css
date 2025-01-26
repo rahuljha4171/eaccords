@@ -1,0 +1,61 @@
+/* styles.css */
+#chatbot-icon {
+    position: fixed;
+
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+}
+
+#chatbot-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.footer {
+    background-color: #255290;
+    color: white;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.social-list i {
+    font-size: 30px;
+
+}
+
+.social-list i:hover {
+    color: #FC4A1B;
+
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.copyright-text a {
+    color: white;
+    text-decoration: none;
+}
